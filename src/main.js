@@ -102,7 +102,7 @@ function productTemplate(_product) {
   .Bizcards .video{
     height: 70vh;
     width:25vw;
-    border: 1px solid #fff;
+    border: 1px solid #CBA835;
     border-radius: 5px;
     cursor: pointer;
     overflow: hidden;
@@ -150,8 +150,8 @@ function productTemplate(_product) {
   padding: 5px 15px;
   height: 100%;
   font-weight: 800;
-  font-size: 23px;
-  color: #fff;
+  font-size: 15px;
+  color: #CBA835;
   text-decoration: none;
   border: solid 2px #fff;
   padding: 5px 20px;
@@ -159,7 +159,7 @@ function productTemplate(_product) {
   background-color: #000;
 }
 .button a:hover{
-  background-color: #fff;
+  background-color: #CBA835;
   color: #000;
 }
 
@@ -167,7 +167,7 @@ function productTemplate(_product) {
     position: absolute;
     top: 5px; right: 20px;
     font-size: 50px;
-    color: #fff;
+    color: #CBA835;
     font-weight: bolder;
     z-index: 100;
     cursor: pointer;
@@ -191,15 +191,15 @@ function productTemplate(_product) {
           ${identiconTemplate(_product.owner)}
           </div>
           <div style="width:70%; text-align:center; align-items:center;">
-            <h4 class="">${_product.name}</h4>
-            <p class="">
+            <h4 class="" style="margin-bottom:5px;">${_product.name}</h4>
+            <p class="" style="margin-bottom:5px;>
               ${_product.description}             
             </p>
             
           </div>
         </div>
         <p class="">
-              <i class=""></i>
+              <i class="" style="margin-bottom:5px;></i>
               <span>${_product.location}</span>
           </p>
         <div class="button">
@@ -288,7 +288,7 @@ document.querySelector("#marketplace").addEventListener("click", async (e) => {
     } catch (error) {
       notification(`⚠️ ${error}.`)
     }
-    notification(`⌛ Awaiting payment for "${products[index].name}"...`)
+    notification(`⌛ Awaiting "${products[index].name}" trailing fee...`)
     try {
       const result = await contract.methods
         .buyProduct(index)
