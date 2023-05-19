@@ -114,11 +114,11 @@ function productTemplate(_product) {
 .Bizcards .video .details{
     background-color: black;
     color: white;
-    height: 35%;
+    height: 40%;
     width: 100%;
 }
 .Bizcards .video  iframe{
-    height: 65%;
+    height: 70%;
     width: 100%;
     object-fit: cover;
     transition: .2s linear;
@@ -191,15 +191,15 @@ function productTemplate(_product) {
           ${identiconTemplate(_product.owner)}
           </div>
           <div style="width:70%; text-align:center; align-items:center;">
-            <h4 class="" style="margin-bottom:5px;">${_product.name}</h4>
-            <p class="" style="margin-bottom:5px;>
+            <h4 class="">${_product.name}</h4>
+            <p class="">
               ${_product.description}             
             </p>
             
           </div>
         </div>
         <p class="">
-              <i class="" style="margin-bottom:5px;></i>
+              <i class="" ></i>
               <span>${_product.location}</span>
           </p>
         <div class="button">
