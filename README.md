@@ -1,3 +1,8 @@
+# Live Demo
+'''
+[https://priscahc.github.io/Celo_Hackathon/](https://priscahc.github.io/Celo_Hackathon/)
+'''
+
 # Install
 
 ```
