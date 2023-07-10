@@ -48,7 +48,7 @@
 <body>
   <!--Stylesheet-->
   <style>
-    *{
+    body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -98,6 +98,22 @@
         align-items: center;
         justify-content: center;
     }
+    .fund {
+  padding: 5px 15px;
+  height: 100%;
+  font-weight: 800;
+  font-size: 15px;
+  color: #CBA835;
+  text-decoration: none;
+  border: solid 2px #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #000;
+  }
+.fund:hover{
+  background-color: #CBA835;
+  color: #000;
+}
     .content{
         text-align: center;
     }
@@ -165,6 +181,7 @@
         padding: 5px 20px;
         border-radius: 20px;
         background-color: #000;
+        margin-top: 15px;
     }
     .tab button:hover{
         background-color: #fff;
@@ -239,6 +256,8 @@
         </span>
       </h3>
     <br/>
+    <a href="https://faucet.celo.org/alfajores" class="fund" target="_blank">Fund Wallet</a>
+    <br/>
     <button>
       <a
         data-bs-toggle="modal"
@@ -257,7 +276,7 @@
       <h2 style="color: white; margin-bottom: 0;">At Biz we believe you can make a difference <br/> by starting a business, or trailing an enterprise. <br/>
           earn cUSD by sharing your business <br/> or donate cUSD to support enterprises by trailing them.
       </h2>
-    </div>
+      </div>
     <main id="marketplace" class="Bizcards"></main>
   </div>
 
@@ -342,7 +361,7 @@
               data-bs-dismiss="modal"
               id="newProductBtn"
             >
-              Add product
+              Add Biz
             </button>
           </div>
         </div>
