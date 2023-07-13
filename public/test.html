@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>\
+    <style>
+        .main{
+            height: 400px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .sub{
+            height: 100%;
+            width: 100px;
+            padding: 10px;
+        }
+        .white{
+            background-color: white;
+            position: fixed;
+            z-index: 2;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .red{
+            background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* position: fixed;
+            z-index: -1; */
+        }
+        .blue{
+            background-color: blue;
+        }
+        .green{
+            background-color: rgba(0, 128, 0, .7);
+        }
+        .black{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .clear{
+            background-color: rgba(80, 52, 138, 0.8);
+        }
+        .container{
+            width: auto;
+        }
+    </style>
+    <div class="container">
+        <div class="main red">
+            <div class="sub white"></div>
+        </div>
+        <div class="main green">
+            <div class="sub white"></div>
+        </div>
+        <div class="main black">
+            <div class="sub yellow"></div>
+        </div>
+        <div class="main clear">
+            <div class="sub white"></div>
+        </div>
+        <div class="main black">
+            <div class="sub yellow"></div>
+        </div>
+    </div>
+</body>
+</html>
