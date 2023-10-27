@@ -119,7 +119,7 @@ function productTemplate(_product) {
     width: 100%;
 }
 .Bizcards .video  iframe{
-    height: 70%;
+    height: 300px;
     width: 100%;
     object-fit: cover;
     transition: .2s linear;
