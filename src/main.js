@@ -100,8 +100,9 @@ function productTemplate(_product) {
   return `
   <style>
   .Bizcards .video{
-    height: 70vh;
-    width:25vw;
+    height: 350px;
+    width:100%;
+    max-width:300px;
     border: 1px solid #CBA835;
     border-radius: 5px;
     cursor: pointer;
