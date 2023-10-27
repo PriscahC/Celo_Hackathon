@@ -112,7 +112,7 @@ function productTemplate(_product) {
           ${identiconTemplate(_product.owner)}
           </div>
           <div style="width:70%; text-align:center; align-items:center;">
-            <h4 class="">${_product.name}</h4>
+            <p class="">${_product.name}</p>
             <p class="">
               ${_product.description}             
             </p>
