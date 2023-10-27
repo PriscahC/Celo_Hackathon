@@ -106,7 +106,7 @@ function productTemplate(_product) {
     border: 1px solid #CBA835;
     border-radius: 5px;
     cursor: pointer;
-    overflow: hidden;
+    overflow: show;
     box-shadow: 0, 5px, 15px, rgba(0,0,0,.7);
     position: relative;
     margin:10px;
